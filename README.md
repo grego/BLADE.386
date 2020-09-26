@@ -8,7 +8,7 @@ BLADES.386 is a port of the BOOTSTRA.386 theme for [Blades](https://github.com/g
 
 - [BOOTSTRA.386](https://kristopolous.github.io/BOOTSTRA.386/): main idea, design.
 - [HUGO.386](https://themes.gohugo.io/hugo.386/): item placement.
-- [ZOLA.386](https://github.com/lopes/zola.386): internal structure..
+- [ZOLA.386](https://github.com/lopes/zola.386): internal structure.
 
 
 ## Installation
