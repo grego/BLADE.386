@@ -1,0 +1,13 @@
+{{#classification}}<aside class="span3 bs-docs-sidebar">
+    {{#categories}}
+    <h1>{{name}}</h1>
+    <ul class="nav nav-list bs-docs-sidenav">
+        {{#keys}}<li><a href="/categories/{{key}}">{{key}}</a></li>{{/keys}}
+    </ul>
+    {{/categories}}<br>{{#tags}}
+    <h1>{{name}}</h1>
+    <ul class="nav nav-list bs-docs-sidenav">        
+        {{#keys}}<li><a href="/tags/{{key}}">{{key}}</a></li>{{/keys}}
+    </ul>
+    {{/tags}}
+</aside>{{/classification}}

@@ -1,0 +1,26 @@
+{{>head.html}}
+<header class="jumbotron subhead" id="overview">
+  <div class="page-header">
+      <h1>{{#current}}{{caption}}{{/current}}</h1>
+  </div>
+</header>
+
+<div class="row-fluid">
+  <div class="span9 bs-docs-sidebar">
+    {{#current}}<figure id="gallery-figure">
+        <picture>
+    		<source type="image/jpeg" srcset="/img/full/{{file}}.jpg">
+    		<img class="gallery-photo" alt="{{alt}}" src="/img/full/{{file}}.jpg"/>
+        </picture>
+    </figure>{{/current}}
+    <div class="pagination pagination-centered">
+      <ul>
+        {{#previous}}<li><a href="{{#parent}}{{path}}/{{slug}}{{/parent}}/{{pid}}.html">&larr;</a></li>{{/previous}}
+        {{#parent}}<li><a href="{{path}}/{{slug}}.html">{{title}}</a></li>{{/parent}}
+        {{#next}}<li><a href="{{#parent}}{{path}}/{{slug}}{{/parent}}/{{pid}}.html">&rarr;</a></li>{{/next}}
+      </ul>
+    </div>
+  </div>
+  {{>aside.html}}
+</div>
+{{>foot.html}}

@@ -1,0 +1,43 @@
+{{>head.html}}
+<header class="jumbotron subhead" id="overview">
+    <p class="lead">
+      <span>&gt;&gt;</span>
+      <a href="/">Home</a>
+      {{#path}}<span class="divider">/</span><a href="/{{full}}">{{name}}</a>{{/path}}
+      {{#taxonomies}}
+        {{#categories}}<span class="divider">/</span>
+        <a class="category" href="/categories/{{name}}">{{name}}</a>{{/categories}}
+        <span class="divider">/</span>
+        {{#tags}}<a class="tag" href="/tags/{{name}}">{{name}}</a>{{/tags}}
+      {{/taxonomies}}
+    </p>
+    <div class="page-header"><h1>{{title}}</h1></div>
+    
+    <p class="text-right">
+      {{#taxonomies}}<span class="label label-success">&becaus;
+            {{#authors}}{{name}}{{/authors}}{{^authors}}{{#site}}{{#author}}{{name}}{{/author}}{{/site}}{{/authors}}
+      </span>{{/taxonomies}}
+      <span class="label label-success">&there4; {{>date.html}}</span>
+    </p>
+</header>
+
+<div class="row-fluid">
+    <div class="span9 bs-docs-sidebar">
+      {{content}}
+      {{#gallery}}<h2>Gallery:</h2>
+      <section class="gallery">
+      {{#photos}}
+        <a class="thumbnail" href="{{path}}/{{slug}}/{{pid}}.html">
+            <figure class="small-figure">
+                <picture>
+            		<source type="image/jpeg" srcset="/img/thumb/{{file}}.jpg">
+            		<img class="gallery-photo" alt="{{alt}}" src="/img/thumb/{{file}}.jpg"/>
+                </picture>
+                <figcaption class="gallery-caption">{{caption}}</figcaption>
+            </figure>
+        </a>
+      {{/photos}}{{/gallery}}
+    </div>
+    {{>aside.html}}
+</div>
+{{>foot.html}}
