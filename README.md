@@ -21,7 +21,7 @@ $ git clone https://github.com/grego/BLADE.386
 Or use it as a submodule:
 ```bash
 $ cd themes
-$ git submodule add https://github.com/lopes/BLADE.386 
+$ git submodule add https://github.com/grego/BLADE.386 
 ```
 
 Then, set it as a theme in your `Blades.toml`:
