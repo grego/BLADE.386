@@ -70,33 +70,12 @@
     </url>
     
     <url>
-        <loc>/categories/poetry/</loc>
-        <priority>0.3</priority>
-    </url>
-    
-    <url>
         <loc>/categories/kōans/</loc>
         <priority>0.3</priority>
     </url>
     
-
     <url>
-        <loc>/authors/</loc>
-        <priority>0.2</priority>
-    </url>
-    
-    <url>
-        <loc>/authors/Jane Doe/</loc>
-        <priority>0.3</priority>
-    </url>
-    
-    <url>
-        <loc>/authors/Lewis Carroll/</loc>
-        <priority>0.3</priority>
-    </url>
-    
-    <url>
-        <loc>/authors/Mumon/</loc>
+        <loc>/categories/poetry/</loc>
         <priority>0.3</priority>
     </url>
     
@@ -107,7 +86,17 @@
     </url>
     
     <url>
+        <loc>/tags/pets/</loc>
+        <priority>0.3</priority>
+    </url>
+    
+    <url>
         <loc>/tags/food/</loc>
+        <priority>0.3</priority>
+    </url>
+    
+    <url>
+        <loc>/tags/lisp/</loc>
         <priority>0.3</priority>
     </url>
     
@@ -121,13 +110,24 @@
         <priority>0.3</priority>
     </url>
     
+
     <url>
-        <loc>/tags/lisp/</loc>
+        <loc>/authors/</loc>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>/authors/Lewis Carroll/</loc>
         <priority>0.3</priority>
     </url>
     
     <url>
-        <loc>/tags/pets/</loc>
+        <loc>/authors/Mumon/</loc>
+        <priority>0.3</priority>
+    </url>
+    
+    <url>
+        <loc>/authors/Jane Doe/</loc>
         <priority>0.3</priority>
     </url>
     
