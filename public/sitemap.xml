@@ -70,12 +70,43 @@
     </url>
     
     <url>
-        <loc>/categories/poetry/</loc>
+        <loc>/categories/kōans/</loc>
         <priority>0.3</priority>
     </url>
     
     <url>
-        <loc>/categories/kōans/</loc>
+        <loc>/categories/poetry/</loc>
+        <priority>0.3</priority>
+    </url>
+    
+
+    <url>
+        <loc>/tags/</loc>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>/tags/lisp/</loc>
+        <priority>0.3</priority>
+    </url>
+    
+    <url>
+        <loc>/tags/food/</loc>
+        <priority>0.3</priority>
+    </url>
+    
+    <url>
+        <loc>/tags/pets/</loc>
+        <priority>0.3</priority>
+    </url>
+    
+    <url>
+        <loc>/tags/borogoves/</loc>
+        <priority>0.3</priority>
+    </url>
+    
+    <url>
+        <loc>/tags/finger/</loc>
         <priority>0.3</priority>
     </url>
     
@@ -91,43 +122,12 @@
     </url>
     
     <url>
-        <loc>/authors/Lewis Carroll/</loc>
-        <priority>0.3</priority>
-    </url>
-    
-    <url>
         <loc>/authors/Jane Doe/</loc>
         <priority>0.3</priority>
     </url>
     
-
     <url>
-        <loc>/tags/</loc>
-        <priority>0.2</priority>
-    </url>
-    
-    <url>
-        <loc>/tags/pets/</loc>
-        <priority>0.3</priority>
-    </url>
-    
-    <url>
-        <loc>/tags/borogoves/</loc>
-        <priority>0.3</priority>
-    </url>
-    
-    <url>
-        <loc>/tags/food/</loc>
-        <priority>0.3</priority>
-    </url>
-    
-    <url>
-        <loc>/tags/lisp/</loc>
-        <priority>0.3</priority>
-    </url>
-    
-    <url>
-        <loc>/tags/finger/</loc>
+        <loc>/authors/Lewis Carroll/</loc>
         <priority>0.3</priority>
     </url>
     

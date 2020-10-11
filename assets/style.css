@@ -3876,12 +3876,13 @@ input.btn.btn-mini[type="submit"] {
   color: #bbbbbb;
   background: #000000; }
 
-.navbar-inverse .nav .active > a,
-.navbar-inverse .nav .active > a:hover,
-.navbar-inverse .nav .active > a:focus {
-  color: #bbbbbb;
+.navbar-inverse a.active,
+.navbar-inverse a.active:hover,
+.navbar-inverse a.active:focus {
+  color: #bbbbbb !important;
   text-decoration: none;
-  background: #000000; }
+  background: #000000 !important;
+}
 
 .navbar-inverse .navbar-link {
   color: #000000; }

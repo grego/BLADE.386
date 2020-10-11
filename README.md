@@ -29,5 +29,10 @@ Then, set it as a theme in your `Blades.toml`:
 theme = "BLADE.386"
 ```
 
+## Images
+If you want to use the picture gallery provided by this theme, place your thumbnails in the
+`img/thumb` and your full images to the `img/full` subdirectories of your output directory
+(which defaults to `public`, unless set otherwise in the config).
+
 ## License
 [MIT](LICENSE)
