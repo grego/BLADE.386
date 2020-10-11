@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
     <title>Blade.386</title>
-    <link rel="related" href="http://example.com" />
-    <id>http://example.com</id>
+    <link rel="related" href="" />
+    <id></id>
     
     <author>
         <name>Maros Grego</name>
@@ -13,31 +13,24 @@
     
     <subtitle>A port of the DOS-y theme to Blades</subtitle>
     <generator>razor</generator>
-    <updated>2020-10-01T12:16:57Z</updated>
+    <updated>2020-10-11T14:23:17Z</updated>
 
 
     <entry>
         <title>Blade.386</title>
-        <link rel="alternate" href="http://example.com/" />
-        <id>http://example.com</id>
+        <link rel="alternate" href="/" />
+        <id></id>
         <summary><p>A port of the Bootstra.386 theme.</p>
 </summary>
         <content></content>
         <updated>2020-09-26T12:57:16Z</updated>
-        
-        <author>
-            <name></name>
-            <email></email>
-            <uri></uri>
-        </author>
-        
     </entry>
     
 
     <entry>
         <title>A gallery</title>
-        <link rel="alternate" href="http://example.com/gallery.html" />
-        <id>http://example.com/gallery</id>
+        <link rel="alternate" href="/gallery.html" />
+        <id>/gallery</id>
         <summary><p>Open this post to see a gallery!</p>
 </summary>
         <content><p>This page is just a placeholder<br />
@@ -47,25 +40,14 @@ A picture gallery</p>
 <p>With this generator</p>
 </content>
         <updated>2020-09-19T00:00:00Z</updated>
-        
-        <author>
-            <name></name>
-            <email></email>
-            <uri></uri>
-        </author>
-        
     </entry>
     
     <entry>
         <title>A trash can.</title>
-        <link rel="alternate" href="http://example.com/gallery/tiles.html" />
-        <id>http://example.com/gallerytiles</id>
+        <link rel="alternate" href="/gallery/tiles.html" />
+        <id>/gallery/tiles</id>
         <summary>a view of reality</summary>
-        <content><p>This page is just a placeholder<br />
-To show you a functionality<br />
-Of generating<br />
-A picture gallery</p>
-<p>With this generator</p>
+        <content><p>Open this post to see a gallery!</p>
 </content>
         
         <updated>2020-09-19T00:00:00Z</updated>
@@ -73,14 +55,10 @@ A picture gallery</p>
     
     <entry>
         <title>A manor</title>
-        <link rel="alternate" href="http://example.com/gallery/manor.html" />
-        <id>http://example.com/gallerymanor</id>
+        <link rel="alternate" href="/gallery/manor.html" />
+        <id>/gallery/manor</id>
         <summary>a view from reality</summary>
-        <content><p>This page is just a placeholder<br />
-To show you a functionality<br />
-Of generating<br />
-A picture gallery</p>
-<p>With this generator</p>
+        <content><p>Open this post to see a gallery!</p>
 </content>
         
         <updated>2020-09-19T00:00:00Z</updated>
@@ -88,14 +66,10 @@ A picture gallery</p>
     
     <entry>
         <title>A brick factory</title>
-        <link rel="alternate" href="http://example.com/gallery/factory.html" />
-        <id>http://example.com/galleryfactory</id>
+        <link rel="alternate" href="/gallery/factory.html" />
+        <id>/gallery/factory</id>
         <summary>a view above reality</summary>
-        <content><p>This page is just a placeholder<br />
-To show you a functionality<br />
-Of generating<br />
-A picture gallery</p>
-<p>With this generator</p>
+        <content><p>Open this post to see a gallery!</p>
 </content>
         
         <updated>2020-09-19T00:00:00Z</updated>
@@ -103,14 +77,10 @@ A picture gallery</p>
     
     <entry>
         <title>A couch outside</title>
-        <link rel="alternate" href="http://example.com/gallery/real.html" />
-        <id>http://example.com/galleryreal</id>
+        <link rel="alternate" href="/gallery/real.html" />
+        <id>/gallery/real</id>
         <summary>a view with reality</summary>
-        <content><p>This page is just a placeholder<br />
-To show you a functionality<br />
-Of generating<br />
-A picture gallery</p>
-<p>With this generator</p>
+        <content><p>Open this post to see a gallery!</p>
 </content>
         
         <updated>2020-09-19T00:00:00Z</updated>
@@ -119,8 +89,8 @@ A picture gallery</p>
 
     <entry>
         <title>Mu</title>
-        <link rel="alternate" href="http://example.com/mu.html" />
-        <id>http://example.com/mu</id>
+        <link rel="alternate" href="/mu.html" />
+        <id>/mu</id>
         <summary><p>A monk asked Joshu, &quot;Has the dog the Buddha nature?&quot; </p>
 </summary>
         <content><p>A monk asked Joshu, &quot;Has the dog the Buddha nature?&quot;<br />
@@ -132,20 +102,13 @@ Would you like to pass through this barrier? Then concentrate your whole body, w
 </blockquote>
 </content>
         <updated>2020-09-18T00:00:00Z</updated>
-        
-        <author>
-            <name></name>
-            <email></email>
-            <uri></uri>
-        </author>
-        
     </entry>
     
 
     <entry>
         <title>Jabberwocky</title>
-        <link rel="alternate" href="http://example.com/jabberwocky.html" />
-        <id>http://example.com/jabberwocky</id>
+        <link rel="alternate" href="/jabberwocky.html" />
+        <id>/jabberwocky</id>
         <summary><p>’Twas brillig, and the slithy toves<br />
 Did gyre and gimble in the wabe:<br />
 All mimsy were the borogoves,<br />
@@ -181,20 +144,13 @@ All mimsy were the borogoves,<br />
 And the mome raths outgrabe.</p>
 </content>
         <updated>2019-05-17T00:00:00Z</updated>
-        
-        <author>
-            <name></name>
-            <email></email>
-            <uri></uri>
-        </author>
-        
     </entry>
     
 
     <entry>
         <title>Gutei's Finger</title>
-        <link rel="alternate" href="http://example.com/finger.html" />
-        <id>http://example.com/finger</id>
+        <link rel="alternate" href="/finger.html" />
+        <id>/finger</id>
         <summary><p>Gutei raised his finger whenever he was asked a question about Zen. A boy attendant began to imitate him in this way. When a visitor asked the boy what his master had preached about, the boy raised his finger.</p>
 </summary>
         <content><p>Gutei raised his finger whenever he was asked a question about Zen. A boy attendant began to imitate him in this way. When a visitor asked the boy what his master had preached about, the boy raised his finger.</p>
@@ -206,20 +162,13 @@ And the mome raths outgrabe.</p>
 </blockquote>
 </content>
         <updated>2018-12-12T00:00:00Z</updated>
-        
-        <author>
-            <name></name>
-            <email></email>
-            <uri></uri>
-        </author>
-        
     </entry>
     
 
     <entry>
         <title>Nansen cuts a cat in two</title>
-        <link rel="alternate" href="http://example.com/half-cat.html" />
-        <id>http://example.com/half-cat</id>
+        <link rel="alternate" href="/half-cat.html" />
+        <id>/half-cat</id>
         <summary><p>Nansen saw the monks of the eastern and western halls fighting over a baby cat. He seized the cat and said, &quot;If (any of) you can say (a word of Zen), you can spare the cat. Otherwise I will kill it.&quot;</p>
 </summary>
         <content><p>Nansen saw the monks of the eastern and western halls fighting over a baby cat. He seized the cat and said, &quot;If (any of) you can say (a word of Zen), you can spare the cat. Otherwise I will kill it.&quot; No one could answer. So Nansen cut the cat in two.</p>
@@ -230,33 +179,19 @@ And the mome raths outgrabe.</p>
 </blockquote>
 </content>
         <updated>2015-11-07T00:00:00Z</updated>
-        
-        <author>
-            <name></name>
-            <email></email>
-            <uri></uri>
-        </author>
-        
     </entry>
     
 
     <entry>
         <title>About</title>
-        <link rel="alternate" href="http://example.com/about/" />
-        <id>http://example.com/about</id>
+        <link rel="alternate" href="/about/" />
+        <id>/about</id>
         <summary></summary>
         <content><p>Tuvan throat singing, Khoomei, is one particular variant of overtone singing practiced by people in Tuva and Siberia. In 2009, it was inscribed on the Representative List of the Intangible Cultural Heritage of Humanity of UNESCO.</p>
 <p>In Tuvan throat singing, the performer produces a fundamental pitch and—simultaneously—one or more pitches over that. The history of Tuvan throat singing reaches far back. Many male herders can throat sing, but women are beginning to practice the technique as well. The popularity of throat singing among Tuvans seems to have arisen as a result of geographic location and culture. The open landscape of Tuva allows for the sounds to carry a great distance. Ethnomusicologists studying throat singing in these areas mark khoomei as an integral part in the ancient pastoral animism still practiced today. Often, singers travel far into the countryside looking for the right river, or go up to the steppes of the mountainside to create the proper environment for throat-singing.</p>
 <p>The animistic world view of this region identifies the spirituality of objects in nature, not just in their shape or location, but in their sound as well. Thus, human mimicry of nature's sounds is seen as the root of throat singing. An example of this is the Tuvan story of the waterfall above the Buyant Göl (Deer River in Tuvan), where mysterious harmonic sounds are said to have attracted deer to bask in the waters, and where it is said harmonic sounds were first revealed to people. Indeed, the cultures in this part of Asia have developed many instruments and techniques to mimic the sounds of animals, wind, and water. While the cultures of this region share throat singing, their styles vary in breadth of development.</p>
 </content>
         <updated>2020-09-26T12:57:16Z</updated>
-        
-        <author>
-            <name></name>
-            <email></email>
-            <uri></uri>
-        </author>
-        
     </entry>
     
 

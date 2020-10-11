@@ -12,25 +12,25 @@ With this generator
 """
 gallery = true
 
-[[photos]]
+[[pictures]]
 file = "1"
 alt = "A trash can."
 caption = "a view of reality"
 pid = "tiles"
 
-[[photos]]
+[[pictures]]
 file = "2"
 alt = "A manor"
 caption = "a view from reality"
 pid = "manor"
 
-[[photos]]
+[[pictures]]
 file = "3"
 alt = "A brick factory"
 caption = "a view above reality"
 pid = "factory"
 
-[[photos]]
+[[pictures]]
 file = "4"
 alt = "A couch outside"
 caption = "a view with reality"

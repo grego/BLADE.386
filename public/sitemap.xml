@@ -2,63 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://example.com/</loc>
+        <loc>/</loc>
         <priority>0.5</priority>
     </url>
     
 
     <url>
-        <loc>http://example.com/gallery.html</loc>
+        <loc>/gallery.html</loc>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>http://example.com/gallery/tiles.html</loc>
+        <loc>/gallery/tiles.html</loc>
         <priority>0.1</priority>
     </url>
     
     <url>
-        <loc>http://example.com/gallery/manor.html</loc>
+        <loc>/gallery/manor.html</loc>
         <priority>0.1</priority>
     </url>
     
     <url>
-        <loc>http://example.com/gallery/factory.html</loc>
+        <loc>/gallery/factory.html</loc>
         <priority>0.1</priority>
     </url>
     
     <url>
-        <loc>http://example.com/gallery/real.html</loc>
+        <loc>/gallery/real.html</loc>
         <priority>0.1</priority>
     </url>
     
 
     <url>
-        <loc>http://example.com/mu.html</loc>
+        <loc>/mu.html</loc>
         <priority>0.5</priority>
     </url>
     
 
     <url>
-        <loc>http://example.com/jabberwocky.html</loc>
+        <loc>/jabberwocky.html</loc>
         <priority>0.5</priority>
     </url>
     
 
     <url>
-        <loc>http://example.com/finger.html</loc>
+        <loc>/finger.html</loc>
         <priority>0.5</priority>
     </url>
     
 
     <url>
-        <loc>http://example.com/half-cat.html</loc>
+        <loc>/half-cat.html</loc>
         <priority>0.5</priority>
     </url>
     
 
     <url>
-        <loc>http://example.com/about/</loc>
+        <loc>/about/</loc>
         <priority>0.5</priority>
     </url>
     
@@ -70,12 +70,33 @@
     </url>
     
     <url>
-        <loc>/categories/kōans/</loc>
+        <loc>/categories/poetry/</loc>
         <priority>0.3</priority>
     </url>
     
     <url>
-        <loc>/categories/poetry/</loc>
+        <loc>/categories/kōans/</loc>
+        <priority>0.3</priority>
+    </url>
+    
+
+    <url>
+        <loc>/authors/</loc>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>/authors/Mumon/</loc>
+        <priority>0.3</priority>
+    </url>
+    
+    <url>
+        <loc>/authors/Lewis Carroll/</loc>
+        <priority>0.3</priority>
+    </url>
+    
+    <url>
+        <loc>/authors/Jane Doe/</loc>
         <priority>0.3</priority>
     </url>
     
@@ -91,6 +112,11 @@
     </url>
     
     <url>
+        <loc>/tags/borogoves/</loc>
+        <priority>0.3</priority>
+    </url>
+    
+    <url>
         <loc>/tags/food/</loc>
         <priority>0.3</priority>
     </url>
@@ -102,32 +128,6 @@
     
     <url>
         <loc>/tags/finger/</loc>
-        <priority>0.3</priority>
-    </url>
-    
-    <url>
-        <loc>/tags/borogoves/</loc>
-        <priority>0.3</priority>
-    </url>
-    
-
-    <url>
-        <loc>/authors/</loc>
-        <priority>0.2</priority>
-    </url>
-    
-    <url>
-        <loc>/authors/Lewis Carroll/</loc>
-        <priority>0.3</priority>
-    </url>
-    
-    <url>
-        <loc>/authors/Mumon/</loc>
-        <priority>0.3</priority>
-    </url>
-    
-    <url>
-        <loc>/authors/Jane Doe/</loc>
         <priority>0.3</priority>
     </url>
     

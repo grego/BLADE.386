@@ -3,16 +3,16 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  <title>{{title}}{{^title}}{{#taxonomy}}{{name}}{{/taxonomy}}{{#current}}{{pid}}{{/current}}{{/title}} - {{#site}}{{title}}</title>
+  <title>{{title}}{{#current}}{{pid}}{{/current}} - {{#site}}{{title}}</title>
   
-  {{#rss}}<link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">{{/rss}}
-  {{#atom}}<link rel="alternate" type="application/atom+xml" title="Atom" href="/atom.xml">{{/atom}}
-  <link rel="stylesheet" href="/{{assets}}/style.css">
+  {{#rss}}<link rel="alternate" type="application/rss+xml" title="RSS" href="{{url}}/rss.xml">{{/rss}}
+  {{#atom}}<link rel="alternate" type="application/atom+xml" title="Atom" href="{{url}}/atom.xml">{{/atom}}
+  <link rel="stylesheet" href="{{url}}/{{assets}}/style.css">
 
   <meta name="description" itemprop="about" content="{{description}}">
   <meta name="keywords" itemprop="keywords" content="{{keywords}}">
-  {{#author}}<meta name="author" itemprop="author" content="{{name}}">{{/author}}
-  {{#image}}<meta property="og:image" content="/{{image}}">{{/image}}
+  {{#author}}{{#name}}<meta name="author" itemprop="author" content="{{name}}">{{/name}}{{/author}}
+  {{#image}}<meta property="og:image" content="{{url}}/{{image}}">{{/image}}
 </head>
 
 <body>
@@ -20,15 +20,17 @@
     <div class="navbar-inner">
         <div class="container">
             <button type="button" class="btn btn-navbar"></button>
-            <a class="brand" href="/">{{title}}</a>
+            <a class="brand" href="{{url}}/">{{title}}</a>
   {{/site}}
             <div class="nav-collapse collapse">
               <ul class="nav">
                 {{#index}}{{#subsections}}
-                <li><a href="/{{slug}}"><span>{{title}}</span></a></li>
+                <li><a href="{{permalink}}"><span>{{title}}</span></a></li>
                 {{/subsections}}{{/index}}
-                <li><a href="/categories"><span>Categories</span></a></li>
-                <li><a href="/tags"><span>Tags</span></a></li>
+                {{#classification}}
+                {{#categories}}<li><a href="{{#site}}{{url}}{{/site}}/categories"><span>Categories</span></a></li>{{/categories}}
+                {{#tags}}<li><a href="{{#site}}{{url}}{{/site}}/tags"><span>Tags</span></a></li>{{/tags}}
+                {{/classification}}
               </ul>
             </div>
         </div>

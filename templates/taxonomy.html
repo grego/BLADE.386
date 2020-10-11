@@ -1,15 +1,14 @@
 {{>head.html}}
-{{#taxonomy}}<header class="jumbotron subhead" id="overview">
-  <div class="page-header"><h1>{{name}}</h1></div>
+<header class="jumbotron subhead" id="overview">
+  <div class="page-header"><h1>{{title}}</h1></div>
 </header>
 
 <div class="row-fluid">
   <div class="span9 bs-docs-sidebar">
     <ul>{{#keys}}
-      <li><a href="/{{slug}}/{{key}}">{{key}}</a></li>
+      <li><a href="{{#site}}{{url}}{{/site}}/{{slug}}/{{key}}">{{key}}</a></li>
     {{/keys}}</ul>
   </div>
-{{/taxonomy}}
   {{>aside.html}}
 </div>
 {{>foot.html}}

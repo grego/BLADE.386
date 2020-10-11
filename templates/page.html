@@ -2,13 +2,13 @@
 <header class="jumbotron subhead" id="overview">
     <p class="lead">
       <span>&gt;&gt;</span>
-      <a href="/">Home</a>
-      {{#path}}<span class="divider">/</span><a href="/{{full}}">{{name}}</a>{{/path}}
+      <a href="{{#site}}{{url}}{{/site}}/">Home</a>
+      {{#path}}<span class="divider">/</span><a href="{{#site}}{{url}}{{/site}}/{{full}}/">{{name}}</a>{{/path}}
       {{#taxonomies}}
         {{#categories}}<span class="divider">/</span>
-        <a class="category" href="/categories/{{name}}">{{name}}</a>{{/categories}}
+        <a class="category" href="{{#site}}{{url}}{{/site}}/categories/{{name}}">{{name}}</a>{{/categories}}
         <span class="divider">/</span>
-        {{#tags}}<a class="tag" href="/tags/{{name}}">{{name}}</a>{{/tags}}
+        {{#tags}}<a class="tag" href="{{#site}}{{url}}{{/site}}/tags/{{name}}">{{name}}</a>{{/tags}}
       {{/taxonomies}}
     </p>
     <div class="page-header"><h1>{{title}}</h1></div>
@@ -24,10 +24,8 @@
 <div class="row-fluid">
     <div class="span9 bs-docs-sidebar">
       {{content}}
-      {{#gallery}}<h2>Gallery:</h2>
-      <section class="gallery">
-      {{#photos}}
-        <a class="thumbnail" href="{{path}}/{{slug}}/{{pid}}.html">
+      <section class="gallery">{{#pictures}}
+        <a class="thumbnail" href="{{permalink}}">
             <figure class="small-figure">
                 <picture>
             		<source type="image/jpeg" srcset="/img/thumb/{{file}}.jpg">
@@ -36,7 +34,7 @@
                 <figcaption class="gallery-caption">{{caption}}</figcaption>
             </figure>
         </a>
-      {{/photos}}{{/gallery}}
+      {{/pictures}}</section>
     </div>
     {{>aside.html}}
 </div>

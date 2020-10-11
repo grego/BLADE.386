@@ -1,12 +1,12 @@
 {{>head.html}}
 <header class="jumbotron subhead" id="overview">
-  <div class="page-header"><h1>{{#taxonomy}}{{name}}{{/taxonomy}}: {{title}}</h1></div>
+  <div class="page-header"><h1>{{#taxonomy}}{{title}}{{/taxonomy}}: {{title}}</h1></div>
 </header>
 
 <div class="row-fluid">
   <div class="span9 bs-docs-sidebar">
     <ul>{{#pages}}
-      <li><a href="{{path}}/{{slug}}.html">{{>date.html}} | {{title}}</a></li>
+      <li><a href="{{permalink}}">{{>date.html}} | {{title}}</a></li>
     {{/pages}}</ul>
   </div>
   {{>aside.html}}
