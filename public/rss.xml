@@ -6,25 +6,23 @@
         <link></link>
         <description>A port of the DOS-y theme to Blades</description>
         <ttl>1440</ttl>
-        <generator>razor</generator>
-        <pubDate>Mon, 12 Oct 2020 22:21:20 GMT</pubDate>
+        <generator>blades</generator>
+        <pubDate>Wed, 15 Dec 2021 00:21:16 GMT</pubDate>
         
     
     
         <item>
             <title>Blade.386</title>
             <link>/</link>
-            <description><p>A port of the Bootstra.386 theme.</p>
-</description>
-            <pubDate>Sat, 26 Sep 2020 12:57:16 GMT</pubDate>
+            <description>A port of the Bootstra.386 theme.</description>
+            <pubDate>Tue, 14 Dec 2021 21:21:08 GMT</pubDate>
         </item>
         
     
         <item>
             <title>A gallery</title>
             <link>/gallery.html</link>
-            <description><p>Open this post to see a gallery!</p>
-</description>
+            <description>Open this post to see a gallery!</description>
             <pubDate>Sat, 19 Sep 2020 00:00:00 GMT</pubDate>
         </item>
         
@@ -64,8 +62,7 @@
         <item>
             <title>Mu</title>
             <link>/mu.html</link>
-            <description><p>A monk asked Joshu, &quot;Has the dog the Buddha nature?&quot; </p>
-</description>
+            <description>A monk asked Joshu, &quot;Has the dog the Buddha nature?&quot; </description>
             <pubDate>Fri, 18 Sep 2020 00:00:00 GMT</pubDate>
         </item>
         
@@ -73,10 +70,10 @@
         <item>
             <title>Jabberwocky</title>
             <link>/jabberwocky.html</link>
-            <description><p>’Twas brillig, and the slithy toves<br />
-Did gyre and gimble in the wabe:<br />
-All mimsy were the borogoves,<br />
-And the mome raths outgrabe.</p>
+            <description>’Twas brillig, and the slithy toves  
+Did gyre and gimble in the wabe:  
+All mimsy were the borogoves,  
+And the mome raths outgrabe.  
 </description>
             <pubDate>Fri, 17 May 2019 00:00:00 GMT</pubDate>
         </item>
@@ -85,7 +82,7 @@ And the mome raths outgrabe.</p>
         <item>
             <title>Gutei's Finger</title>
             <link>/finger.html</link>
-            <description><p>Gutei raised his finger whenever he was asked a question about Zen. A boy attendant began to imitate him in this way. When a visitor asked the boy what his master had preached about, the boy raised his finger.</p>
+            <description>Gutei raised his finger whenever he was asked a question about Zen. A boy attendant began to imitate him in this way. When a visitor asked the boy what his master had preached about, the boy raised his finger.
 </description>
             <pubDate>Wed, 12 Dec 2018 00:00:00 GMT</pubDate>
         </item>
@@ -94,7 +91,7 @@ And the mome raths outgrabe.</p>
         <item>
             <title>Nansen cuts a cat in two</title>
             <link>/half-cat.html</link>
-            <description><p>Nansen saw the monks of the eastern and western halls fighting over a baby cat. He seized the cat and said, &quot;If (any of) you can say (a word of Zen), you can spare the cat. Otherwise I will kill it.&quot;</p>
+            <description>Nansen saw the monks of the eastern and western halls fighting over a baby cat. He seized the cat and said, &quot;If (any of) you can say (a word of Zen), you can spare the cat. Otherwise I will kill it.&quot;
 </description>
             <pubDate>Sat, 07 Nov 2015 00:00:00 GMT</pubDate>
         </item>
@@ -104,7 +101,7 @@ And the mome raths outgrabe.</p>
             <title>About</title>
             <link>/about/</link>
             <description></description>
-            <pubDate>Sat, 26 Sep 2020 12:57:16 GMT</pubDate>
+            <pubDate>Tue, 14 Dec 2021 21:21:08 GMT</pubDate>
         </item>
         
     

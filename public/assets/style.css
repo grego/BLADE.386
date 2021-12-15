@@ -611,20 +611,6 @@ address,
 dfn {
   font-style: normal; }
 
-i:before,
-cite:before,
-em:before,
-var:before,
-address:before,
-dfn:before,
-i:after,
-cite:after,
-em:after,
-var:after,
-address:after,
-dfn:after {
-  content: '/'; }
-
 .muted {
   display: none;
   color: #bbbbbb; }
@@ -915,7 +901,6 @@ pre.prettyprint {
 
 pre code {
   padding: 0;
-  color: inherit;
   white-space: pre;
   white-space: pre-wrap;
   background-color: transparent;
@@ -5331,7 +5316,7 @@ a.badge:focus {
   .navbar-static-top .container,
   .navbar-fixed-top .container,
   .navbar-fixed-bottom .container {
-    width: 656px; }
+    width: 95vw; }
   .span12 {
     width: 656px; }
   .span11 {
@@ -5825,3 +5810,32 @@ a.badge:focus {
 
 .navmargin {
   margin-top: 20px; }
+
+code {
+    color: #f8f8f2;
+}
+
+code b {
+    color: #66d9ef;
+}
+
+code strong {
+    color: #a6e22e;
+}
+
+code u {
+    color: #f92672;
+    text-decoration: none;
+}
+
+code em {
+    color: #e6db74;
+}
+
+code span {
+    color: #7a82ff;
+}
+
+code i {
+    color: #bbb;
+}

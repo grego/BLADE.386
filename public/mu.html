@@ -61,12 +61,26 @@
 
 <div class="row-fluid">
     <div class="span9 bs-docs-sidebar">
-      <p>A monk asked Joshu, &quot;Has the dog the Buddha nature?&quot;<br />
-Joshu replied, &quot;Mu&quot;</p>
-<h3>Mumon's Comment:</h3>
+      <p>A monk asked Joshu, “Has the dog the Buddha nature?”<br />
+Joshu replied, “Mu”</p>
+<pre><code class="language-rust"><b>use</b> <var>std</var><u>::</u><em>io</em><u>::</u>{<var>stdout</var>, <strong>Result</strong>, <strong>Write</strong>};
+<b>fn</b> <em>main</em>() <u>-&gt;</u> <strong>Result</strong><u>&lt;</u>()<u>&gt;</u> {
+    <b>let</b> (<var>s</var>, <var>e</var>) <u>=</u> (<span>br#&quot;use std::io::{stdout, Result, Write};
+fn main() -&gt; Result&lt;()&gt; {
+    let (s, e) = (br#&quot;&quot;#</span>, <span>br#&quot;#);
+    let start = s.iter().chain(s).chain(&amp;[b'&quot;',b'#']).chain(b&quot;, br#\&quot;&quot;);
+    let end = e.iter().chain(b&quot;\&quot;&quot;).chain(e).chain(b&quot;\n&quot;);
+    stdout().write_all(&amp;start.chain(end).copied().collect::&lt;Vec&lt;_&gt;&gt;())
+}&quot;#</span>);
+    <b>let</b> <var>start</var> <u>=</u> <var>s</var><u>.</u><em>iter</em>()<u>.</u><em>chain</em>(<var>s</var>)<u>.</u><em>chain</em>(<u>&amp;</u>[<span>b'&quot;'</span>,<span>b'#'</span>])<u>.</u><em>chain</em>(<span>b&quot;, br#\&quot;&quot;</span>);
+    <b>let</b> <var>end</var> <u>=</u> <var>e</var><u>.</u><em>iter</em>()<u>.</u><em>chain</em>(<span>b&quot;\&quot;&quot;</span>)<u>.</u><em>chain</em>(<var>e</var>)<u>.</u><em>chain</em>(<span>b&quot;\n&quot;</span>);
+    <var>stdout</var>()<u>.</u><em>write_all</em>(<u>&amp;</u><var>start</var><u>.</u><em>chain</em>(<var>end</var>)<u>.</u><em>copied</em>()<u>.</u><em>collect</em><u>::&lt;</u><strong>Vec</strong><u>&lt;</u><var>_</var><u>&gt;&gt;</u>())
+}
+</code></pre>
+<h3>Mumon’s Comment:</h3>
 <blockquote>
-<p>For the pursuit of Zen, you must pass through the barriers (gates) set up by the Zen masters. To attain his mysterious awareness one must completely uproot all the normal workings of one's mind. If you do not pass through the barriers, nor uproot the normal workings of your mind, whatever you do and whatever you think is a tangle of ghost. Now what are the barriers? This one word &quot;Mu&quot; is the sole barrier. This is why it is called the Gateless Gate of Zen. The one who passes through this barrier shall meet with Joshu face to face and also see with the same eyes, hear with the same ears and walk together in the long train of the patriarchs. Wouldn't that be pleasant?<br />
-Would you like to pass through this barrier? Then concentrate your whole body, with its 360 bones and joints, and 84,000 hair follicles, into this question of what &quot;Mu&quot; is; day and night, without ceasing, hold it before you. It is neither nothingness, nor its relative &quot;not&quot; of &quot;is&quot; and &quot;is not.&quot; It must be like gulping a hot iron ball that you can neither swallow nor spit out.</p>
+<p>For the pursuit of Zen, you must pass through the barriers (gates) set up by the Zen masters. To attain his mysterious awareness one must completely uproot all the normal workings of one’s mind. If you do not pass through the barriers, nor uproot the normal workings of your mind, whatever you do and whatever you think is a tangle of ghost. Now what are the barriers? This one word “Mu” is the sole barrier. This is why it is called the Gateless Gate of Zen. The one who passes through this barrier shall meet with Joshu face to face and also see with the same eyes, hear with the same ears and walk together in the long train of the patriarchs. Wouldn’t that be pleasant?<br />
+Would you like to pass through this barrier? Then concentrate your whole body, with its 360 bones and joints, and 84,000 hair follicles, into this question of what “Mu” is; day and night, without ceasing, hold it before you. It is neither nothingness, nor its relative “not” of “is” and “is not.” It must be like gulping a hot iron ball that you can neither swallow nor spit out.</p>
 </blockquote>
 
       <section class="gallery"></section>
@@ -80,7 +94,7 @@ Would you like to pass through this barrier? Then concentrate your whole body, w
     <br>
     <h1></h1>
     <ul class="nav nav-list bs-docs-sidenav">        
-        <li><a href="/tags/finger">finger</a></li><li><a href="/tags/pets">pets</a></li><li><a href="/tags/borogoves">borogoves</a></li><li><a href="/tags/food">food</a></li><li><a href="/tags/lisp">lisp</a></li>
+        <li><a href="/tags/finger">finger</a></li><li><a href="/tags/borogoves">borogoves</a></li><li><a href="/tags/pets">pets</a></li><li><a href="/tags/food">food</a></li><li><a href="/tags/lisp">lisp</a></li>
     </ul>
     
 </aside>
