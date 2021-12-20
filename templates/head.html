@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  <title>{{title}}{{#current}}{{pid}}{{/current}} - {{#site}}{{title}}</title>
+  <title>{{title}}{{current pid}} - {{#site}}{{title}}</title>
   
   {{#rss}}<link rel="alternate" type="application/rss+xml" title="RSS" href="{{url}}/rss.xml">{{/rss}}
   {{#atom}}<link rel="alternate" type="application/atom+xml" title="Atom" href="{{url}}/atom.xml">{{/atom}}
@@ -20,15 +20,15 @@
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
-            {{#index}}<a class="brand {{#active}}active{{/active}}" href="{{#site}}{{url}}{{/site}}/">{{title}}</a>
+            {{#index}}<a class="brand {{#active}}active{{/active}}" href="{{site url}}/">{{title}}</a>
             <div class="nav-collapse collapse">
               <ul class="nav">
                 {{#subsections}}
                 <li><a {{#active}}class="active"{{/active}} href="{{permalink}}"><span>{{title}}</span></a></li>
                 {{/subsections}}{{/index}}
                 {{#classification}}
-                {{#categories}}<li><a href="{{#site}}{{url}}{{/site}}/categories"><span>Categories</span></a></li>{{/categories}}
-                {{#tags}}<li><a href="{{#site}}{{url}}{{/site}}/tags"><span>Tags</span></a></li>{{/tags}}
+                {{#categories}}<li><a href="{{site url}}/categories"><span>Categories</span></a></li>{{/categories}}
+                {{#tags}}<li><a href="{{site url}}/tags"><span>Tags</span></a></li>{{/tags}}
                 {{/classification}}
               </ul>
             </div>

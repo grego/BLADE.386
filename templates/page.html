@@ -2,20 +2,20 @@
 <header class="jumbotron subhead" id="overview">
     <p class="lead">
       <span>&gt;&gt;</span>
-      <a href="{{#site}}{{url}}{{/site}}/">Home</a>
-      {{#path}}<span class="divider">/</span><a href="{{#site}}{{url}}{{/site}}/{{full}}/">{{name}}</a>{{/path}}
+      <a href="{{site url}}/">Home</a>
+      {{#path}}<span class="divider">/</span><a href="{{site url}}/{{full}}/">{{name}}</a>{{/path}}
       {{#taxonomies}}
         {{#categories}}<span class="divider">/</span>
-        <a class="category" href="{{#site}}{{url}}{{/site}}/categories/{{name}}">{{name}}</a>{{/categories}}
+        <a class="category" href="{{site url}}/categories/{{name}}">{{name}}</a>{{/categories}}
         <span class="divider">/</span>
-        {{#tags}}<a class="tag" href="{{#site}}{{url}}{{/site}}/tags/{{name}}">{{name}}</a>{{/tags}}
+        {{#tags}}<a class="tag" href="{{site url}}/tags/{{name}}">{{name}}</a> {{/tags}}
       {{/taxonomies}}
     </p>
     <div class="page-header"><h1>{{title}}</h1></div>
     
     <p class="text-right">
       {{#taxonomies}}<span class="label label-success">&becaus;
-            {{#authors}}{{name}}{{/authors}}{{^authors}}{{#site}}{{#author}}{{name}}{{/author}}{{/site}}{{/authors}}
+            {{#authors}}{{name}}{{/authors}}{{^authors}}{{site author name}}{{/authors}}
       </span>{{/taxonomies}}
       <span class="label label-success">&there4; {{>date.html}}</span>
     </p>

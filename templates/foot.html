@@ -2,8 +2,8 @@
   <footer class="container">
     <hr class="soften">
     <p>
-        {{#date}}{{y}}{{/date}} &copy;
-        {{#site}}{{#author}}{{#uri}}<a href="{{url}}">{{name}}</a>{{/uri}}{{^uri}}{{name}}{{/uri}}{{/author}}{{/site}}
+        {{date y}} &copy;
+        {{#site author}}{{#uri}}<a href="{{url}}">{{name}}</a>{{/uri}}{{^uri}}{{name}}{{/uri}}{{/author site}}
         | Built with <a href="http://www.getblades.org" target="_blank"><span class="blades-logo"></span>Blades</a>
         | No JavaScript used
     </p>

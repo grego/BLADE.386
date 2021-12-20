@@ -2,12 +2,12 @@
     {{#categories}}
     <h1>{{name}}</h1>
     <ul class="nav nav-list bs-docs-sidenav">
-        {{#keys}}<li><a href="{{#site}}{{url}}{{/site}}/categories/{{key}}">{{key}}</a></li>{{/keys}}
+        {{#keys}}<li><a href="{{site url}}/categories/{{key}}">{{key}}</a></li>{{/keys}}
     </ul>
     {{/categories}}<br>{{#tags}}
     <h1>{{name}}</h1>
     <ul class="nav nav-list bs-docs-sidenav">        
-        {{#keys}}<li><a href="{{#site}}{{url}}{{/site}}/tags/{{key}}">{{key}}</a></li>{{/keys}}
+        {{#keys}}<li><a href="{{site url}}/tags/{{key}}">{{key}}</a></li>{{/keys}}
     </ul>
     {{/tags}}
 </aside>{{/classification}}

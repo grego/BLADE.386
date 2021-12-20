@@ -16,12 +16,12 @@
         <dd>{{>date.html}}</dd>
         
         {{#taxonomies}}<dt>Author</dt>
-        <dd>{{#authors}}{{name}} {{/authors}}{{^authors}}{{#site}}{{#author}}{{name}}{{/author}}{{/site}}{{/authors}}</dd>
+        <dd>{{#authors}}{{name}} {{/authors}}{{^authors}}{{site author name}}{{/authors}}</dd>
 
         <dt>Taxonomies</dt>
         <dd>
           {{#categories}}<a href="/categories/{{name}}">{{name}}</a>{{/categories}} |
-          {{#tags}}<a href="/tags/{{name}}">{{name}}</a>{{/tags}}
+          {{#tags}}<a href="/tags/{{name}}">{{name}}</a> {{/tags}}
         </dd>{{/taxonomies}}
       </dl>
       <p><a href="{{permalink}}" class="btn btn-info" role="button">Read more</a></p>
@@ -30,13 +30,13 @@
     </div>{{/pages}}
     {{#pagination}}<div class="pagination pagination-centered">
       <ul>
-        <li {{^previous}}class="disabled"{{/previous}}><a href="{{#site}}{{url}}{{/site}}{{path}}/{{#slug}}{{slug}}/{{/slug}}">&larrb;</a></li>
-        <li {{^previous}}class="disabled"{{/previous}}><a href="{{#site}}{{url}}{{/site}}{{path}}{{#slug}}/{{slug}}{{/slug}}/{{previous}}.html">&larr;</a></li>
+        <li {{^previous}}class="disabled"{{/previous}}><a href="{{site url}}{{path}}/{{#slug}}{{slug}}/{{/slug}}">&larrb;</a></li>
+        <li {{^previous}}class="disabled"{{/previous}}><a href="{{site url}}{{path}}{{#slug}}/{{slug}}{{/slug}}/{{previous}}.html">&larr;</a></li>
       
         <li class="disabled"><a href="#">{{current}}/{{length}}</a></li>
         
-        <li {{^next}}class="disabled"{{/next}}><a href="{{#site}}{{url}}{{/site}}{{path}}{{#slug}}/{{slug}}{{/slug}}/{{next}}.html">&rarr;</a></li>
-        <li {{^next}}class="disabled"{{/next}}><a href="{{#site}}{{url}}{{/site}}{{path}}{{#slug}}/{{slug}}{{/slug}}/{{length}}.html">&rarrb;</a></li>
+        <li {{^next}}class="disabled"{{/next}}><a href="{{site url}}{{path}}{{#slug}}/{{slug}}{{/slug}}/{{next}}.html">&rarr;</a></li>
+        <li {{^next}}class="disabled"{{/next}}><a href="{{site url}}{{path}}{{#slug}}/{{slug}}{{/slug}}/{{length}}.html">&rarrb;</a></li>
       </ul>
     </div>{{/pagination}}
   </div>
