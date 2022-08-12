@@ -7,7 +7,7 @@
         <description>A port of the DOS-y theme to Blades</description>
         <ttl>1440</ttl>
         <generator>blades</generator>
-        <pubDate>Mon, 20 Dec 2021 20:36:58 GMT</pubDate>
+        <pubDate>Fri, 12 Aug 2022 12:19:52 GMT</pubDate>
         
     
     
@@ -15,7 +15,7 @@
             <title>Blade.386</title>
             <link>/</link>
             <description>A port of the Bootstra.386 theme.</description>
-            <pubDate>Tue, 14 Dec 2021 21:21:08 GMT</pubDate>
+            <pubDate>Sat, 26 Sep 2020 12:57:16 GMT</pubDate>
         </item>
         
     
@@ -25,39 +25,31 @@
             <description>Open this post to see a gallery!</description>
             <pubDate>Sat, 19 Sep 2020 00:00:00 GMT</pubDate>
         </item>
-        
         <item>
             <title>A trash can.</title>
             <link>/gallery/tiles.html</link>
             <description>a view of reality</description>
             
             <pubDate>Sat, 19 Sep 2020 00:00:00 GMT</pubDate>
-        </item>
-        
-        <item>
+        </item><item>
             <title>A manor</title>
             <link>/gallery/manor.html</link>
             <description>a view from reality</description>
             
             <pubDate>Sat, 19 Sep 2020 00:00:00 GMT</pubDate>
-        </item>
-        
-        <item>
+        </item><item>
             <title>A brick factory</title>
             <link>/gallery/factory.html</link>
             <description>a view above reality</description>
             
             <pubDate>Sat, 19 Sep 2020 00:00:00 GMT</pubDate>
-        </item>
-        
-        <item>
+        </item><item>
             <title>A couch outside</title>
             <link>/gallery/real.html</link>
             <description>a view with reality</description>
             
             <pubDate>Sat, 19 Sep 2020 00:00:00 GMT</pubDate>
         </item>
-        
     
         <item>
             <title>Mu</title>
@@ -101,7 +93,7 @@ And the mome raths outgrabe.
             <title>About</title>
             <link>/about/</link>
             <description></description>
-            <pubDate>Tue, 14 Dec 2021 21:21:08 GMT</pubDate>
+            <pubDate>Sat, 26 Sep 2020 12:57:16 GMT</pubDate>
         </item>
         
     

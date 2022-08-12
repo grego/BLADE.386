@@ -1,6 +1,4 @@
 title = "Blade.386"
 description = "A port of the DOS-y theme to Blades"
 theme = "BLADE.386"
-
-[author]
-name = "Maros Grego"
+author = "Maros Grego"
